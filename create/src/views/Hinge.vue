@@ -8,7 +8,7 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { SceneUtils } from '../utils/sceneUtils'
-import { SceneStateManager } from '../utils/SceneStateManager'
+import { SceneStateManager } from '../utils/sceneStateManage'
 import NavBar from '../components/NavBar.vue'
 import { SceneMode } from '../config/modeConfig'
 
